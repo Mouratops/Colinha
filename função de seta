@@ -1,0 +1,6 @@
+// ARROW FUNCTION ou função de seta
+const mensagem2 = () => 'Olá'
+mensagem2 ()
+
+const mensagem3 = (nome) => `Olá, ${nome}`
+mensagem3 ('Eduardo')
