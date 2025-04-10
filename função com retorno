@@ -1,0 +1,9 @@
+// função com retorno
+let a = 2
+let b = 5
+function soma(num1, num2) {
+  return num1 + num2
+}
+let resultado = soma(8,8)
+console.log(resultado)
+console.log(soma(a, b))
