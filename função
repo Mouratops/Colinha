@@ -1,0 +1,20 @@
+// função declarativa permite chamar a função de qualquer parte do código 
+// função sem parâmetro e sem retorno
+function mostarHoraLocal () {
+  let hora = new Date()
+  console.log(`Hora de agora: ${hora.toLocaleTimeString()}`)
+}
+ mostarHoraLocal ()
+
+function mensagem () {
+  console.log('Olá mundo')
+}
+mensagem()
+
+// função declarativa com parâmetro
+function cumprimentar(nome, idade) {
+  console.log('Idade' + idade ) // concatenação
+  console.log(`Olá, ${nome}`) // template string
+}
+cumprimentar('Ana', 10)
+cumprimentar('Mourato', 16)
